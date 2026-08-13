@@ -23,7 +23,23 @@ def square(number):
    return number*number
 
 number=5
-print(square(number))
+print(square(number)) 
+
+
+
+
+
+
+def ispositive_number(n):
+   return n
+
+n=6
+if n>0:
+   print("positive number")
+else:
+   print("negative number")
+
+   ispositive_number(n)   
 
 
 
