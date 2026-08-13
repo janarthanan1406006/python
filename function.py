@@ -18,3 +18,12 @@ def groot (name):
    return message
 result=groot("jana")
 print(result)
+
+def square(number):
+   return number*number
+
+number=5
+print(square(number))
+
+
+
