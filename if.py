@@ -41,10 +41,40 @@ else:
 
 
 
-num = int (input(" enter the number: "))
-if num < 0:
-    print(" negative number ")
-elif num > 0:
-    print(" positive number ")
+##num = int (input(" enter the number: "))
+##if num < 0:
+  ##  print(" negative number ")
+##elif num > 0:
+  ##  print(" positive number ")
+##else:
+  ##  print(" zero ") 
+
+
+
+num1 = 3
+num2 = 5
+operator = input("enter the operator: ")
+if operator == "addition":
+    print("addition is successful" , num1 + num2)
+elif operator == "subtraction":
+    print("subtraction is successful" , num1 - num2)
+elif operator == "multiplication":
+    print("multiplication is successful" , num1 * num2)
+elif operator == "division":
+    print("division is successful" , num1 // num2)
 else:
-    print(" zero ")                     
+    print(" invalid operator ")
+
+
+
+
+sides = int (input("enter the sides of the triangle: "))
+
+if sides == 3:
+    print(" it is equalateral triangle")
+elif sides == 2:
+    print("it is isosceles triangle")
+elif sides == 1:
+    print("it is scalene triangle") 
+else:
+    print("invalid triangle")           
