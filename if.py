@@ -51,30 +51,31 @@ else:
 
 
 
-num1 = 3
-num2 = 5
-operator = input("enter the operator: ")
-if operator == "addition":
-    print("addition is successful" , num1 + num2)
-elif operator == "subtraction":
-    print("subtraction is successful" , num1 - num2)
-elif operator == "multiplication":
-    print("multiplication is successful" , num1 * num2)
-elif operator == "division":
-    print("division is successful" , num1 // num2)
-else:
-    print(" invalid operator ")
+##num1 = 3
+##num2 = 5
+##operator = input("enter the operator: ")
+##if operator == "addition":
+  ##  print("addition is successful" , num1 + num2)
+##elif operator == "subtraction":
+  ##  print("subtraction is successful" , num1 - num2)
+##elif operator == "multiplication":
+  ##  print("multiplication is successful" , num1 * num2)
+##elif operator == "division":
+  ##  print("division is successful" , num1 // num2)
+##else:
+  ##2  print(" invalid operator ")
 
 
 
 
-sides = int (input("enter the sides of the triangle: "))
+sides1 = int (input("enter the sides of the triangle1: "))
+sides2 = int (input("enter the sides of the triangle2: "))
+sides3 = int (input("enter the sides of the triangle3: "))
 
-if sides == 3:
+if sides1 == sides2 == sides3:
     print(" it is equalateral triangle")
-elif sides == 2:
-    print("it is isosceles triangle")
-elif sides == 1:
-    print("it is scalene triangle") 
+elif sides1 == sides2:
+    print(" it is isosceles triangle")    
+
 else:
-    print("invalid triangle")           
+    print("scalene triangle")           
