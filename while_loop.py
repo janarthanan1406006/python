@@ -23,10 +23,21 @@ print(a)  """
 
 
 
-n = 3
+"""n = 3
 while n > 0:
     print(n * "*")
-    n -= 1 
+    n -= 1 """
+
+
+
+a = 0
+i = 0
+while i <= 5:
+    i = int(input("Enter a number: "))
+    a = a + i
+    i += 1
+print(a)
+
    
 
  
