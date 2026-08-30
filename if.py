@@ -51,7 +51,7 @@ else:
 
 
 
-num1 = 3
+"""num1 = 3
 num2 = 5
 operator = input("enter the operator: ")
 if operator == "addition":
@@ -63,7 +63,7 @@ elif operator == "multiplication":
 elif operator == "division":
    print("division is successful" , num1 // num2)
 else:
-  ##2  print(" invalid operator ")
+  2  print(" invalid operator ")"""
 
 
 
@@ -74,7 +74,7 @@ sides3 = int (input("enter the sides of the triangle3: "))
 
 if sides1 == sides2 == sides3:
     print(" it is equalateral triangle")
-elif sides1 == sides2:
+elif sides1 == sides2 or sides2 == sides3 or sides1 == sides3:
     print(" it is isosceles triangle")    
 
 else:
