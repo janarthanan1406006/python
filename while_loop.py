@@ -1,4 +1,4 @@
-i= 1
+"""i= 1
 while i <= 10:
     print(i)
     i += 2
@@ -19,7 +19,14 @@ while True:
    a = a + i
    if i == 0:
       break
-print(a)   
+print(a)  """ 
+
+
+
+n = 3
+while n > 0:
+    print(n * "*")
+    n -= 1 
    
 
  
