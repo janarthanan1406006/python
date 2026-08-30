@@ -51,18 +51,18 @@ else:
 
 
 
-##num1 = 3
-##num2 = 5
-##operator = input("enter the operator: ")
-##if operator == "addition":
-  ##  print("addition is successful" , num1 + num2)
-##elif operator == "subtraction":
-  ##  print("subtraction is successful" , num1 - num2)
-##elif operator == "multiplication":
-  ##  print("multiplication is successful" , num1 * num2)
-##elif operator == "division":
-  ##  print("division is successful" , num1 // num2)
-##else:
+num1 = 3
+num2 = 5
+operator = input("enter the operator: ")
+if operator == "addition":
+    print("addition is successful" , num1 + num2)
+elif operator == "subtraction":
+    print("subtraction is successful" , num1 - num2)
+elif operator == "multiplication":
+   print("multiplication is successful" , num1 * num2)
+elif operator == "division":
+   print("division is successful" , num1 // num2)
+else:
   ##2  print(" invalid operator ")
 
 

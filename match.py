@@ -1,4 +1,4 @@
-"""def grade(score):
+def grade(score):
     match score:
         case score if score >= 90:
             print(" a score ")
@@ -8,11 +8,11 @@
             print(" c score")
         case _:
             print(" fail ")        
-grade(85)"""
+grade(85)
 
 
 
-"""def color(rgb):
+def color(rgb):
     match rgb:
         case (255 ,0 , 0 ):
             print("red")
@@ -25,7 +25,7 @@ grade(85)"""
         case _:
             print("unknown color")
 
-color((0,10,20))"""
+color((0,10,20))
 
 
 
