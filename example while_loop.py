@@ -15,10 +15,19 @@ while n<0:
 
 ##intermediate##
 
-while True:
+"""while True:
     n = int(input("Enter a number: "))
     if n == 0:
         print("You entered 0, exiting the loop.")
         break
-    print("You entered:", n)
+    print("You entered:", n)"""
 
+
+
+num = 12345
+total = 0
+while num > 0:
+    digit = num % 10
+    total += digit
+    num //= 10
+print("The sum of the digits is:", total)
