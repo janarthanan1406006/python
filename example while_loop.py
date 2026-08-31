@@ -35,7 +35,7 @@ print("The sum of the digits is:", total)"""
 
 ##advanced##
 
-attempts = 0
+"""attempts = 0
 while attempts < 3:
     password = input("Enter the password: ")
     if password == "secret":
@@ -43,7 +43,17 @@ while attempts < 3:
         break
     else:
         attempts += 1
-        print("Incorrect password. Attempts left:", 3 - attempts)
+        print("Incorrect password. Attempts left:", 3 - attempts)"""
+
+
+i = 1
+while i <= 10:
+    j = 1
+    while j <= i:
+        print("*", end="")
+        j += 1
+    print()
+    i += 1
 
 
 
