@@ -24,10 +24,29 @@ while n<0:
 
 
 
-num = 12345
+"""num = 12345
 total = 0
 while num > 0:
     digit = num % 10
     total += digit
     num //= 10
-print("The sum of the digits is:", total)
+print("The sum of the digits is:", total)""" 
+
+
+##advanced##
+
+attempts = 0
+while attempts < 3:
+    password = input("Enter the password: ")
+    if password == "secret":
+        print("Access granted.")
+        break
+    else:
+        attempts += 1
+        print("Incorrect password. Attempts left:", 3 - attempts)
+
+
+
+
+
+
