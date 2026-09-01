@@ -20,9 +20,17 @@ for x in num:
 
 ## advanced ##
 
-for i in range(2,50):
+"""for i in range(2,50):
     for j in range(2,i):
         if i % j == 0:
             break
     else:
-        print(i)    
+        print(i)"""    
+
+
+for i in range(2,50):
+    for j in range(2,i):
+        if i % j == 0:
+            print("composite number", i)
+            break
+            
