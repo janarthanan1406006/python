@@ -1,3 +1,8 @@
-fruits = ["apple", "banana", "cherry"]
+"""fruits = ["apple", "banana", "cherry"]
 for y in fruits:
-    print(y)
+    print(y)"""
+
+
+
+for x in range(15):
+    print(x)
