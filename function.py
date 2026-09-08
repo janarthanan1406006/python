@@ -3,7 +3,7 @@
 
 
 
-def add (a,b):
+"""def add (a,b):
    c=a+b
    return c
 
@@ -39,7 +39,16 @@ if n>0:
 else:
    print("negative number")
 
-   ispositive_number(n)   
+   ispositive_number(n)"""
+
+
+def full_name(first_name,last_name):
+    first_name = first_name.capitalize()
+    last_name = last_name.capitalize()
+    return first_name + " " + last_name
+correct_name = full_name("bro" , "code")
+print(correct_name)
+
 
 
 
