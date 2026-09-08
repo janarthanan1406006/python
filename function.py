@@ -42,12 +42,28 @@ else:
    ispositive_number(n)"""
 
 
-def full_name(first_name,last_name):
+"""def full_name(first_name,last_name):
     first_name = first_name.capitalize()
     last_name = last_name.capitalize()
     return first_name + " " + last_name
 correct_name = full_name("bro" , "code")
-print(correct_name)
+print(correct_name)"""
+
+
+def birthday_wish(name , age):
+    print(f"happy birthday {name}")
+    print(f"you are {age} years old")
+    print()
+
+birthday_wish("jana" , 20)
+
+birthday_wish("alice" , 25)
+
+birthday_wish("bob" , 30)
+
+    
+
+
 
 
 
