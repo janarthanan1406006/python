@@ -30,7 +30,7 @@ student_info(name = "jana" , age = 20 , city = "sivaganga")
 def grocery_list(**grocery_product):
         for key,value in grocery_product.items():
             print(f"{key}:{value}")
-grocery_list(tomato = "5kg" , carrot = "2kg", cucumber = "5pc")"""
+grocery_list(tomato = "5kg" , carrot = "2kg", cucumber = "5pc")
 
 
 
@@ -38,5 +38,24 @@ grocery_list(tomato = "5kg" , carrot = "2kg", cucumber = "5pc")"""
 
 def positional_argument(animal_type , pet_name):
     print(f"i have a {animal_type} named {pet_name}.")
-positional_argument("dog" , "rocky")    
+positional_argument("dog" , "rocky")
+
+
+def power_calculation(base , exponent = 2):
+     print(base ** exponent)
+power_calculation(5) 
+power_calculation(2 ,3 )""" 
+
+
+numbers = [10,20,30,40]
+
+largest = numbers[0]
+
+index = 0
+while index < len(numbers):
+    if numbers[index] > largest:
+        largest = numbers[index]
+    index += 1
+print(f"the largest numbers: " , largest  )        
+ 
   
