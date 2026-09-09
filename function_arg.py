@@ -47,15 +47,16 @@ power_calculation(5)
 power_calculation(2 ,3 )""" 
 
 
-numbers = [10,20,30,40]
+def largest_numbers (numbers = [10,20,30,40]):
+    largest = numbers[0]
 
-largest = numbers[0]
+    index = 0
 
-index = 0
-while index < len(numbers):
-    if numbers[index] > largest:
-        largest = numbers[index]
-    index += 1
-print(f"the largest numbers: " , largest  )        
+    while index < len(numbers):
+        if numbers[index] > largest:
+            largest = numbers[index]
+        index += 1
+    print(largest)  
+largest_numbers()     
  
   
