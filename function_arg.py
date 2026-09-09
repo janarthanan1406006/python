@@ -14,6 +14,8 @@ add (80,65,43,67,56)
 add(50,54,76)""" 
 
 
-
+def add(*names):
+    print(names)
+add ("asha","jana","vetri","santhosh")
 
 
