@@ -5,7 +5,7 @@ def nothing():
  print("inside variable : ",x )
 nothing()
 
-print("outside variable :" , a)"""
+print("outside variable :" , a)
 
  
 def add_numbers():
@@ -14,4 +14,14 @@ def add_numbers():
     result = x + y
     print(result)
 add_numbers() 
-print(result)     
+print(result)"""
+
+balance = 1000
+
+def withdraw(amount):
+    global balance
+    balance = balance - amount
+    print(balance)
+withdraw(200)
+print(balance)     
+
